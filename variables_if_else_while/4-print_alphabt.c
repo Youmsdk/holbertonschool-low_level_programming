@@ -1,4 +1,3 @@
-#include <stdlib>
 #include <stdio.h>
 
 /**
@@ -8,16 +7,16 @@
  */
 int main(void)
 {
- 	char letter;
+	char letter;
 
-	for (l = 'a'; l <= 'z'; letter++)
-	for (l = 'A'; l <= 'Z'; letter++)
+	for (lettre = 'a'; l <= 'z'; letter++)
+	for (lettre = 'A'; l <= 'Z'; letter++)
 	{
 		if (letter != 'e' && letter != 'q')
 			putchar(letter);
 	}
 
 	putchar('\n');
-
 	return (0);
-}	
+}
+
