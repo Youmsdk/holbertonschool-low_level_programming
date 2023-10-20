@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h"
 
 /**
  * main - check the code
@@ -7,12 +7,11 @@
  */
 int main(void)
 {
-	char c;
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		_putchar(c);
-	}
-		
+	char alphabet;
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+			putchar(alphabet);
+
 		putchar('\n');
+		return (0);
 }
 
