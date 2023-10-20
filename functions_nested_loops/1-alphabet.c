@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * main - check the code holberton school students.
+ * print_alphabet - prints the alphabet in lowercase, followed by new line.
  *
  * Return: Always 0
  */
 void print_alphabet(void)
 {
-	char print_alphabet;
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+		putchar('\n')
 
-	for (print_alphabet = 'a'; print_alphabet <= 'z'; print_alphabet++)
-	{
-		putchar(print_alphabet);
-	}
-putchar('\n');
+int main
+	print_alphabet()
+	return (0);
 }
