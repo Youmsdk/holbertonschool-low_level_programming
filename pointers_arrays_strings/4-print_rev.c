@@ -3,10 +3,10 @@
 #include "main.h"
 /**
  * print_rev - print a string in reverse, followed by a new line
- *@s: string
- *Return : nothing
+ * @s: string
+ * Return: nothing
  */
-void print_rev(char *s);
+void print_rev(char *s)
 {
 	int o, r, len;
 
