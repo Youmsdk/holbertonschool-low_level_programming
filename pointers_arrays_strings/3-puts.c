@@ -5,16 +5,16 @@
 /**
  * _puts - that prints a string, followed by a new line, to stdout.
  *
- * @str: string to print
+ * @str: pointer to the string to print
  * Return : nothing
  */
 void _puts(char *str)
 {
 	int aul = 0;
-	while (*str[aul] != '\0')
-		aul++;
+
+	for (aul = 0; str[aul] != '\0'; aul++)
 	{
-		_putchar(*s[aul]);
+		_putchar(str[aul]);
 	}
 		_putchar('\n');
 }
